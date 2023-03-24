@@ -2,16 +2,17 @@ import fotoFondo from '../../public/fondobar.jpg'
 
 const About = () => {
   return (
-    <div className='lg:flex lg:justify-center bg-black'>
-      <img className='lg:relative  lg:w-full  opacity-50' src={fotoFondo} />
-      <div className='lg:absolute top-60 pl-20'>
-          <h1 className='text-white lg:text-8xl uppercase font-bold font-alkatra'  >Divibar</h1>
-          <p className='text-white lg:w-96 text-3xl pt-20'>
-            Divibar es un bar de estilo moderno y relajado que se especializa en
-            servir deliciosas hamburguesas, pizzas y cervezas. Con una
-            decoración atractiva y un ambiente acogedor, es el lugar ideal para
-            disfrutar de una comida informal con amigos o familiares.
-          </p>
+    <div className='lg:flex lg:justify-center bg-hero-pattern h-screen'>
+      <div className='flex flex-col justify-center'>
+        <h1 className='text-white lg:text-8xl uppercase font-bold font-alkatra'>
+          Divibar
+        </h1>
+        <p className='text-white lg:w-96 text-3xl pt-20'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro,
+          similique mollitia veritatis quidem atque. Labore omnis suscipit
+          incidunt dolore! Nemo provident facilis ut eligendi doloremque ipsum
+          natus corporis accusamus.
+        </p>
       </div>
     </div>
   )

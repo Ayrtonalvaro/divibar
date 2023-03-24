@@ -1,9 +1,13 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/public/fondobar.jpg')",
+      },
+    },
     fontFamily: {
-      'alkatra': ['Alkatra', 'cursive'],
+      alkatra: ['Alkatra', 'cursive'],
     },
   },
   plugins: [],
