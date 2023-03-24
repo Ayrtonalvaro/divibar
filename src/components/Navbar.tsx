@@ -4,20 +4,22 @@ import Logo from './Logo'
 const Navbar = () => {
   return (
     <>
-      <nav className='flex justify-around items-center p-5 bg-red-600 text-white font-bold'>
+      <nav className='flex justify-around items-center p-5 bg-black text-white font-semibold fixed w-full z-50'>
         <div>
           <p>Ordenar ahora</p>
           <span>112-036-455</span>
         </div>
-        <ul className='flex gap-20'> 
+        <ul className='flex gap-20'>
           <li>Homepage</li>
           <li>Productos</li>
           <Logo />
           <li>Menu</li>
           <li>Eventos</li>
           <li>Contacto</li>
-          <IconCart />
         </ul>
+        <div>
+          <IconCart />
+        </div>
       </nav>
     </>
   )
