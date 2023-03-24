@@ -1,11 +1,12 @@
 import product1 from '../../public/1.jpg'
+
 import { NavLink } from 'react-router-dom'
-const ProductCard = () => {
+const ProductCard = ({imgUrl} : {imgUrl :string }) => {
   return (
     <div className='flex flex-col w-full'>
       <div className='flex justify-center pt-5'>
         <NavLink to="/product">
-          <img className='w-80 rounded-lg' src={product1} alt='name product' />
+          <img className='w-80 rounded-lg' src={imgUrl} alt='name product' />
         </NavLink>
       </div>
       <h2 className='text-center text-3xl mt-5'>Menu</h2>

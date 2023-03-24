@@ -9,12 +9,12 @@ import ProductCard from './ProductCard'
 const GridProducts = () => {
   return (
     <div className='grid grid-cols-3 gap-10 mt-10'>
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+      <ProductCard imgUrl={product1} />
+      <ProductCard imgUrl={product2} />
+      <ProductCard imgUrl={product3} />
+      <ProductCard imgUrl={product4} />
+      <ProductCard imgUrl={product5} />
+      <ProductCard imgUrl={product6} />
     </div>
   )
 }

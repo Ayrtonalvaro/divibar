@@ -20,9 +20,10 @@ const Navbar = () => {
           <NavLink to='/'>
             <li>Homepage</li>
           </NavLink>
-          <li>Productos</li>
+          <NavLink to='/products'>
+            <li>Menus</li>
+          </NavLink>
           <Logo />
-          <li>Menu</li>
           <li>Eventos</li>
           <li>Contacto</li>
         </ul>
