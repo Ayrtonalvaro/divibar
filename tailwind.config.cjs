@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/public/fondobar.jpg')",
+        'hero-events': "url('/public/sala-privada.jpg')",
       },
     },
     fontFamily: {

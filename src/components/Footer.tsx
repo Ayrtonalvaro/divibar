@@ -3,7 +3,7 @@ import Logo from './Logo'
 
 const Footer = () => {
   return (
-    <div className='bg-red-800 flex justify-between items-center px-20 text-white mt-10 pt-5'>
+    <div className='bg-red-800 flex justify-between items-center px-20 text-white  pt-5'>
       <Logo />
       <ul>
         <li>Home</li>

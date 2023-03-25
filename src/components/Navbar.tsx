@@ -18,17 +18,23 @@ const Navbar = () => {
         </div>
         <ul className='lg:flex gap-20 cursor-pointer'>
           <NavLink to='/'>
-            <li>Homepage</li>
+            <li>Home</li>
           </NavLink>
           <NavLink to='/products'>
             <li>Menus</li>
           </NavLink>
           <Logo />
-          <li>Eventos</li>
-          <li>Contacto</li>
+          <NavLink to='/eventos'>
+            <li>Eventos</li>
+          </NavLink>
+          <NavLink to='/contacto'>
+            <li>Contacto</li>
+          </NavLink>
         </ul>
         <div>
-          <IconCart />
+          <NavLink to='/cart'>
+            <IconCart />
+          </NavLink>
         </div>
       </nav>
     </>
